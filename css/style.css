@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+}
+.row {
+    height: 100%;
+}
+.row .main-nav .collection-item {
+    background-color: #424242;
+}
+.row .main-nav .collection-item:hover {
+    background-color: #9e9e9e !important;
+    border-left: 5px solid #2196F3;
+}
+
+.main-nav {
+    border: none !important;
+}
+.main-nav-wrapper {
+    height: 100%;
+    position: fixed;
+}
+.row .main-nav .main-header {
+    height: 40%;
+    border: none;
+    background-color: #424242;
+}
+
+.row .profile-content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+}
+.profile-pic {
+    width: 75px;
+    height: 75px;
+    align-items: center;
+}
+.profile-name {
+    width: 100%;
+}
+.profile-info {
+    width: 100%;
+}
+
+.section-header {
+    height: 25%;
+    position: relative;
+}
+.section-header h3 {
+    padding-top: 30px;
+}
+.section-body {
+    /*height: 78%; */
+    min-height: 78%;
+}
+.project-card {
+    float: left;
+    width: 250px;
+    min-height: 225px;
+    margin-right: 10px;
+}
+
+.project-card img {
+    width: 200;
+
+}
+.project-card .card-content {
+    padding-top: 0px;
+}
+ .skill-card {
+     width: 165px;
+     float: left;
+     margin-right: 10px;
+     min-height: 225px;
+ }
+.skill-card span {
+  text-transform: capitalize;
+}
+ .skill-card img {
+     width: 125px;
+     min-height: 150px;
+ }
+
+ .skill-section {
+     width: 100%;
+ }
+
+ .social {
+     margin-left: 10px;
+ }
+
+ .social i {
+     padding-left: 5px;
+ }
+
+ .social i:hover {
+     color: #f5f5f5;
+ }
+
+#blog-menu {
+  background-color: #f5f5f5;
+  display: none;
+  border-left: 5px solid #2196F3;
+  box-shadow: inset 0px 1px 2px #3C3C3C;
+}
+#blog-menu ul {
+  padding: 5px 0;
+}
+#blog-menu a {
+  padding-left: 40px;
+}
+#blog-menu a:hover {
+  color: #2196F3 !important;
+}
+.blog-page {
+  margin-top: 35px;
+  margin-left: 15px;
+}

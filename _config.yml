@@ -1,0 +1,36 @@
+# Site settings
+title: John Redlich
+email: jtredlich@gmail.com
+description: Drupal Developer. Geek. Bearded Dad.
+location: Long Island, NY
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://johnredli.ch" # the base hostname & protocol for your site
+main_username: johntr
+alt_username:  johntr10
+
+#projects
+projects:
+  - title: www.adctoday.com
+    img: adc
+    desc: Developed custom code features, drupal modules and site building tasks.
+  - title: societyleadership.org
+    img: nsls
+    desc: Developed custom drupal modules, Data migrations and site building tasks.
+#skills - image file needs to have same name as skill.
+daily:
+  - title: drupal
+  - title: php
+  - title: mariadb
+  - title: git
+often:
+  - title: html
+  - title: css
+  - title: jquery
+#education
+educations:
+  - title: Farmingdale State University of New York
+    img: fsc
+    desc: 2011-2016 BS Computer Programming and Information Systems
+
+# Build settings
+markdown: kramdown

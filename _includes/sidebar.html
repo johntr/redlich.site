@@ -1,0 +1,28 @@
+<div class="col s12 m4 l3 grey darken-3 main-nav-wrapper z-depth-4 hide-on-small-and-down">
+    <ul class="collection with-header main-nav">
+        <li class="collection-header main-header grey-text text-lighten-4"><h4>{{ site.title }}</h4>
+        <img src="/img/new_default.jpg" class="circle profile-pic" />
+        </li>
+        <a href="/#" class="collection-item grey-text text-lighten-4">Profile</a>
+        <a href="/#projects" class="collection-item grey-text text-lighten-4">Projects</a>
+        <a href="/#skills" class="collection-item grey-text text-lighten-4">Skills</a>
+        <a href="/#ed" class="collection-item grey-text text-lighten-4">Education</a>
+        <p class="collection-item grey-text text-lighten-4" id="blog-button">Blog</a>
+        <div id="blog-menu">
+          <ul>
+
+        {% for post in site.posts %}
+            <li><a href="{{ post.url }}" class="blog-links grey-text text-darken-3">-{{ post.title }}</a></li>
+        {% endfor %}
+
+          </ul>
+        </div>
+    </ul>
+    <div class="social">
+       <a href="https://twitter.com/{{ site.main_username }}"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://github.com/{{ site.main_username }}"><i class="fa fa-github fa-2x"></i></a>
+        <a href="https://www.drupal.org/u/{{ site.main_username }}"><i class="fa fa-drupal fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/{{ site.main_username }}"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a href="https://instagram.com/{{ site.alt_username }}"><i class="fa fa-instagram fa-2x"></i></a>
+    </div>
+</div>
