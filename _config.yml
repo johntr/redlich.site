@@ -10,12 +10,31 @@ alt_username:  johntr10
 
 #projects
 projects:
-  - title: www.adctoday.com
+  - title: ADC
     img: adc
+    url: http://adctoday.com
     desc: Developed custom code features, drupal modules and site building tasks.
-  - title: societyleadership.org
+  - title: society for leadership
     img: nsls
+    url: https://www.societyleadership.org/
     desc: Developed custom drupal modules, Data migrations and site building tasks.
+  - title: HR Potenial Center
+    img: hrpc
+    url: http://hrpotenialcenter.com
+    desc: Full Drupal 8 site, design and artitecture.
+  - title: GCHA
+    img: gcha
+    url: http://www.greenlawncenterporthistorical.org/
+    desc: Site buidling and design.
+  - title: Retrofocus Eyeware
+    img: retro
+    url: https://www.retrofocuseyewear.com/
+    desc: Store migration and site building.
+  - title: RamSources
+    img: ramsources
+    url: http://ramsources.com/
+    desc: Senior Project. Built Jenkins site, Modern PHP Rest Api backend and iOS app development.
+
 #skills - image file needs to have same name as skill.
 daily:
   - title: drupal
