@@ -32,7 +32,7 @@ projects:
     desc: Store migration and site building.
   - title: RamSources
     img: ramsources
-    url: http://ramsources.com/
+    url: https://github.com/johntr/RamSourcesAPI
     desc: Senior Project. Built Jenkins site, Modern PHP Rest Api backend and iOS app development.
 
 #skills - image file needs to have same name as skill.
