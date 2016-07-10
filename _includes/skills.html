@@ -9,10 +9,10 @@
       {% for dskills in site.daily %}
       <div class="card-panel skill-card small">
         <div class="card-image">
-          <img src="img/{{ dskills.title }}.jpg"/>
+          <img src="img/skills/{{ dskills.title }}.jpg"/>
         </div>
         <div class="card-content">
-          <span class="card-title black-text">{{ dskills.title }}</span>
+          <h4 class="card-title black-text">{{ dskills.title }}</h4>
         </div>
       </div>
       {% endfor %}
@@ -25,10 +25,10 @@
       {% for oskills in site.often %}
       <div class="card-panel skill-card small">
         <div class="card-image">
-          <img src="img/{{ oskills.title }}.jpg"/>
+          <img src="img/skills/{{ oskills.title }}.jpg"/>
         </div>
         <div class="card-content">
-          <span class="card-title black-text">{{ oskills.title }}</span>
+          <h4 class="card-title black-text">{{ oskills.title }}</h4>
         </div>
       </div>
       {% endfor %}

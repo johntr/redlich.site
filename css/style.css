@@ -61,24 +61,36 @@ body {
 }
 .project-card {
     float: left;
-    width: 250px;
-    min-height: 225px;
+    width: 200px;
+    min-height: 385px;
     margin-right: 10px;
 }
-
+.project-card .card-content {
+    padding: 10px;
+}
 .project-card img {
-    width: 200;
-
+    width: 200px;
+    vertical-align: middle;
+}
+.card-image {
+    min-height: 200px;
+}
+.card-title {
+    text-align: center;
+    height: 50px;
+}
+.card-desc {
+    margin-top: 10px;
 }
 .project-card .card-content {
     padding-top: 0px;
 }
- .skill-card {
+.skill-card {
      width: 165px;
      float: left;
      margin-right: 10px;
      min-height: 225px;
- }
+}
 .skill-card span {
   text-transform: capitalize;
 }
